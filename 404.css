@@ -8,7 +8,7 @@ html, body{
 
 body{
     background-color:#0c0129;
-    background-image:url(images/pfpcanvas.png);
+    background-image:url(public/images/pfpcanvas.png);
     background-position:center;
     background-size:cover;
     background-blend-mode:soft-light;
@@ -21,14 +21,6 @@ body{
     position:absolute;
     top:0px; bottom:0px; right:0px; left:0px;
 }
-.title1{
-	display: block;
-	text-align: center;
-	color:white;
-	font-size:60pt;
-	font-family:big john;
-	font-color:blue;
-}
 .title2{
     display:block;
     margin-top:15px;
@@ -36,42 +28,4 @@ body{
     color:white;
     font-size:14pt;
     font-family:serif;
-}
-
-.register1{
-    margin: 50px auto;
-    display:block;
-    width:180px;
-    height:50px;
-    border:3px solid red;
-    background-color:rgba(255,255,255,0);
-    color:white;
-    font-family:sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    
-    transition: background-color 1000ms, color 1000ms;
-}
-
-.register2{
-    margin: 50px auto;
-    display:block;
-    width:180px;
-    height:50px;
-    border:3px solid orange;
-    background-color:rgba(255,255,255,0);
-    color:white;
-    font-family:sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    
-    transition: background-color 1000ms, color 1000ms;
-}
-
-.register:hover{
-    background-color:rgba(255,255,255,1);
-    color:#222;
-    cursor:pointer;
-    
-    transition: background-color 1000ms, color 1000ms;
 }
