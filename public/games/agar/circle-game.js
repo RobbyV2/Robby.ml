@@ -32,7 +32,7 @@ var cg = {
        this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2 + 60)
 
        this.ctx.font = '20pt Verdana'
-       w = this.ctx.measureText(t = '(click to restart)').width
+       w = this.ctx.measureText(t = '(Click to restart)').width
        this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2 + 110)
      }
      $(this.canvas).click(function() {
@@ -89,7 +89,7 @@ var cg = {
          cg.ctx.font = '20pt Verdana'
 
 
-         w = this.ctx.measureText(t = '(press space to unpause)').width
+         w = this.ctx.measureText(t = '(Press space to unpause)').width
          cg.ctx.fillText(t, (cg.config.width - w)/2, cg.config.height / 2 + 60)
        }
        this.paused = true
